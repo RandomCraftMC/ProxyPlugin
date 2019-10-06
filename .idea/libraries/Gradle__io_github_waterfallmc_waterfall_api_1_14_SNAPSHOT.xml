@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.waterfallmc:waterfall-api:1.14-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.waterfallmc/waterfall-api/1.14-SNAPSHOT/8d92518d9b5946343cf56640bfcf2a5a0797cdaa/waterfall-api-1.14-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.waterfallmc/waterfall-api/1.14-SNAPSHOT/9f4156aa4c2ad10036c8961e8adbff6ea8d451e4/waterfall-api-1.14-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

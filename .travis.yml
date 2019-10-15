@@ -11,4 +11,5 @@ deploy:
   file: "build/libs/proxyplugin-1.0-SNAPSHOT-all.jar"
   skip_cleanup: true
 script:
-  - gradle shadowJar
+  - chmod +x ./gradlew
+  - ./gradlew shadowJar

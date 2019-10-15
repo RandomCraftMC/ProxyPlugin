@@ -1,7 +1,6 @@
 package me.tsblock.proxyplugin;
 
 import me.tsblock.proxyplugin.Events.ProxyPing;
-import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
@@ -29,7 +28,6 @@ public final class ProxyPlugin extends Plugin {
             e.printStackTrace();
         }
         getProxy().getPluginManager().registerListener(this, new ProxyPing(config));
-        getProxy().getConsole().sendMessage(new TextComponent("Done! (for pterodactyl panel)"));
     }
 
     @Override

@@ -16,8 +16,8 @@ repositories {
         url = 'https://oss.sonatype.org/content/groups/public/'
     }
     maven {
-        name = 'papermc-repo'
-        url = 'https://papermc.io/repo/repository/maven-snapshots/'
+        name = 'destroystokyo-repo'
+        url = 'https://repo.destroystokyo.com/repository/maven-public/'
     }
 
 }

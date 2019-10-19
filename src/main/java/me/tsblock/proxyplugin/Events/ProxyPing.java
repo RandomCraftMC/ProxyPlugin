@@ -1,6 +1,8 @@
 package me.tsblock.proxyplugin.Events;
 
+import me.tsblock.proxyplugin.Utils;
 import net.md_5.bungee.api.ChatColor;
+import net.md_5.bungee.api.Favicon;
 import net.md_5.bungee.api.ServerPing;
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.ComponentBuilder;
@@ -25,11 +27,7 @@ public class ProxyPing implements Listener {
         Random random = new Random();
         String motd = motdList.get(random.nextInt(motdList.size())).replace("&", "§");
         ServerPing serverPing = event.getResponse();
-        BaseComponent[] components = TextComponent.fromLegacyText(motd);
-        TextComponent motdComponent = new TextComponent();
-        for (BaseComponent component : components) {
-            motdComponent.addExtra(component);
-        }
+        BaseComponent motdComponent = Utils.parseLegacyText(motd);
         serverPing.setDescriptionComponent(motdComponent);
         event.setResponse(serverPing);
     }

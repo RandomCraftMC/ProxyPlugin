@@ -18,7 +18,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.code.gson:gson:2.8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.yaml:snakeyaml:1.23" level="project" />
@@ -32,7 +31,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.github.waterfallmc:waterfall-config:1.14-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.github.waterfallmc:waterfall-event:1.14-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.github.waterfallmc:waterfall-protocol:1.14-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-resolver:4.1.34.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-transport:4.1.34.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.netty:netty-resolver:4.1.34.Final" level="project" />
   </component>
 </module>

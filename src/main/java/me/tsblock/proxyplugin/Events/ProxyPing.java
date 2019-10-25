@@ -21,6 +21,7 @@ public class ProxyPing implements Listener {
 
     @EventHandler
     public void onProxyPing(ProxyPingEvent event) {
+        /* random motds */
         List<String> motdList = config.getStringList("motd");
         Random random = new Random();
         String motd = motdList.get(random.nextInt(motdList.size())).replace("&", "§");
@@ -31,6 +32,7 @@ public class ProxyPing implements Listener {
             motdComponent.addExtra(component);
         }
         serverPing.setDescriptionComponent(motdComponent);
+        // todo: hover text on player count
         event.setResponse(serverPing);
     }
 }
